@@ -73,7 +73,7 @@
 已经抛出了Emitter和Debug了。在这里实现了监听函数和中间件函数。在代码中每一步都有注释，可以很清楚的理解。
 
 现在访问3001端口，页面上就显示出了：
-![](https://user-gold-cdn.xitu.io/2017/9/8/9a0ac1b7b0285bb425af4f7d8850ba89)
+![](https://github.com/carolineLH/vue_eleme/blob/master/p1.png)
 
 ## Emitter
 koa是基于事件机制的web框架 只是事件起源在用户端，结束在服务器端。<br>
