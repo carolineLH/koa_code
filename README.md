@@ -96,7 +96,7 @@ emitter是node.js对事件订阅及发布机制的抽像对象，原生实现了
     },1000)
 ```
 这里充分说明了Emitter的事件机制，在控制台能够输出：
-![](https://user-gold-cdn.xitu.io/2017/9/8/aa639fd9b79c9f230f7455a0a047c785)
+![](https://github.com/carolineLH/vue_eleme/blob/master/p2.png)
 emit与自定义事件有关，我们知道，父组件是使用props传递数据给子组件，但如果子组件要把数据传递回去，应该怎样做？那就是自定义事件！
 对emit不太理解的童鞋戳戳戳👉：[vue组件之emit](http://www.jianshu.com/p/2e29f6e8800b) 
 
