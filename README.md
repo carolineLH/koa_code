@@ -138,7 +138,7 @@ debug框架中常用的工具,debug提示当前程序执行到哪里.在项目�
     require('./work')  //引入文件work.js
 ```
 这时候package.json文件中的"scripts"中设置：<br>
-"dev":"cross-env DEBUG=http nodemon test.js"打开控制台，可以看到控制台输出：<br>
+"dev":"cross-env DEBUG=http nodemon test.js"打开控制台，可以看到控制台输出debug信息：<br>
 
 ![](https://github.com/carolineLH/vue_eleme/blob/master/2.png) <br>
 
@@ -164,7 +164,7 @@ cross-env 跨环境设置环境变量。在package.json文件中的"scripts"中�
     // debug函数
     function workb() {
         b('doing some work');
-        // 使它能够一直执行
+        // Math.random()*2000每隔两秒取一个随机数使它能够一直执行
         setTimeout(workb, Math.random()*2000)
     }
     workb()
