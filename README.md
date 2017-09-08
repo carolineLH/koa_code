@@ -161,7 +161,7 @@ cross-env 跨环境设置环境变量。在package.json文件中的"scripts"中�
 ```
 这时候package.json文件中的"scripts"中设置：
 "dev":"cross-env DEBUG=* nodemon test.js"控制台上输出：
-![](https://user-gold-cdn.xitu.io/2017/9/8/fac09500df5f99b2a5ba56b620b7eb47)
+![](https://github.com/carolineLH/vue_eleme/blob/master/4.png)
 ## 小结：
 Koa使用了ES6规范的generator和异步编程是一个更轻量级Web开发的框架，需要深入理解其底层实现，对koa源码的学习要慢慢的深入。
 
