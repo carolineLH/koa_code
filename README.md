@@ -143,6 +143,7 @@ debug框架中常用的工具,debug提示当前程序执行到哪里.在项目�
 ![](https://github.com/carolineLH/vue_eleme/blob/master/2.png) <br>
 
 
+##### 如果没有cross-env，windows用户就得不到以上输出内容，并且在chrome浏览器下才生效。下面来看看cross-env!
 ### cross-env:
 
 cross-env 跨环境设置环境变量。在package.json文件中的"scripts"中设置："dev":"cross-env DEBUG=标签 nodemon test.js"
